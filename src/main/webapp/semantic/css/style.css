@@ -1,0 +1,62 @@
+body {
+    /*background-image: url("../img/fondo.png");*/
+    /*background-size: cover;*/
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #050918;
+    color: white;
+}
+
+body.pushable > .pusher {
+    background-color: white;
+    padding: 5px;
+}
+
+
+/*.navbar {*/
+    /*margin-bottom: 20px;*/
+/*}*/
+
+body > #container {
+    background-image: url("../../images/imgfondo.jpg");
+    min-height: 600px;
+    /*background-size: cover;*/
+    /*background-color: white;*/
+}
+
+#container > div.column {
+    background-color: #050918;
+    min-height: 600px;
+    opacity: 1;
+    transition: background 6s cubic-bezier(0.68, -0.55, 0.265, 1.4) 0s, opacity 6s cubic-bezier(0.68, -0.55, 0.265, 1.4) 0s;
+}
+
+#container {
+    background-image: url("../../images/imgfondo.jpg");
+    min-width: : 1200px;
+    min-height: 600px;
+    background-repeat: no-repeat;
+    /*background-size: cover;*/
+    /*background-color: white;*/
+}
+
+/*div.panel.login {*/
+    /*max-width: 400px;*/
+    /*margin-left: auto;*/
+    /*margin-right: auto;*/
+/*}*/
+
+/*div.panel.login .fa-stack {*/
+    /*margin-left: auto;*/
+    /*margin-right: auto;*/
+    /*display: block;*/
+    /*font-size: 4em;*/
+/*}*/
+
+.ui.inverted.menu{
+    background: #213941 none repeat scroll 0% 0%;
+}
+
+.ui.segment.color-texto{
+    color: #1a531b;
+}

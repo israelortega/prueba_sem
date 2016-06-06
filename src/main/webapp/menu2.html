@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="semantic/semantic.min.css" media="all" type="text/css"/>
+        <link rel="stylesheet" href="css/daterangepicker.min.css" media="all" type="text/css"/>
+        <link rel="stylesheet" href="semantic/css/style.css" media="all" type="text/css"/>
+        <script src="js/jquery-2.1.4.min.js"></script>
+        <script src="semantic/semantic.min.js"></script>
+        <script type="text/javascript">
+            $(function () {
+                window.setTimeout(
+                        function () {
+                            $('div.container > div.column').css({
+                                "background-color": "transparent"});
+                        }, 100)
+                $('#save').click(function () {
+                    $('.ui.sidebar').sidebar('toggle');
+                });
+            });
+        </script>
+    </head>
+    <body>
+
+
+
+        <div class="ui sidebar inverted vertical menu">
+            <div class="item">
+                <div class="ui horizontal segments">
+                    <div class="ui segment">
+                        <p><img class="ui tiny  image" src="images/avatar/Isra.jpg"></p>
+                    </div>
+                    <div class="ui segment color-texto">
+                        <p>Israel Ortega</p>
+                        <p>Administrador de Proyectos</p>
+                    </div>
+                </div>
+
+                <div >
+                    <a class="ui teal image label" href="/">
+                        <i class="home icon"></i>
+                        Home
+                    </a>
+                    <a class="ui teal image label" href="/">
+                        <i class="user icon"></i>
+                        Perfil
+                    </a>
+                    <a class="ui teal image label" href="/">
+                        <i class="external icon"></i>
+                        Salir
+                    </a>
+                </div>
+                <p>&nbsp;</p>
+            </div>
+
+            <a class="item" href="/introduction/getting-started.html">
+                <b>Documentos Estratégicos</b>
+            </a>
+            <a class="item" href="/introduction/new.html">
+                <b>¿Que es nuevo?</b>
+            </a>
+
+            <div class="item">
+                <b>Dirección General de Personal</b>
+            </div>
+
+            <div class="item">
+                <div class="header">Sistema de Pagos</div>
+                <div class="menu">
+
+                    <a class="item" href="/usage/theming.html">
+                        Proyectos Académicos
+                    </a>
+
+                    <a class="item" href="/usage/layout.html">
+                        Apertura UPAS foráneas
+                    </a>
+                    <p>&nbsp;</p>
+                </div>
+
+                <div class="header">Página Personal</div>
+                <div class="menu">
+
+                    <a class="item" href="/usage/theming.html">
+                        Núevo Sitio
+                    </a>
+
+                    <a class="item" href="/usage/layout.html">
+                        Plantilla DISI
+                    </a>
+
+                </div>
+            </div>
+
+            <div class="item">
+                <b>Secretaria Adminsitrativa</b>
+            </div>
+
+            <div class="item">
+                <div class="header">Directorio</div>
+                <div class="menu">
+                    <a class="item" href="/usage/theming.html">
+                        Migración Struts 2
+                    </a>
+                </div>
+                <p>&nbsp;</p>
+                <div class="header">Programa de Mantenimiento</div>
+                <div class="menu">
+                    <a class="item" href="/usage/theming.html">
+                        Módulo Dependencias
+                    </a>
+                    <a class="item" href="/usage/theming.html">
+                        Módulo Dictaminador
+                    </a>
+                </div>
+
+            </div>
+        </div>
+        <div class="pusher">
+            <!-- Site content !-->
+                    <button class="ui primary button" id="save">
+                        Menu
+                    </button>
+                    <button class="ui button">
+                        Discard
+                    </button>
+
+        </div>
+
+
+
+    </body>
+</html>
