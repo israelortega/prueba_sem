@@ -16,15 +16,16 @@
                             $('div.container > div.column').css({
                                 "background-color": "transparent"});
                         }, 100)
+                        
                 $('#save').click(function () {
                     $('.ui.sidebar').sidebar('toggle');
                 });
-                
-                $('#discard').click(function () {
-                   alert("XXX");
+
+                $('#jenny').click(function () {
+                    alert("XXX1");
                 });
-                
-                
+
+
             });
         </script>
     </head>
@@ -136,10 +137,45 @@
                 <button class="ui primary button" id="save">
                     Menu
                 </button>
-                
+
                 <button class="ui button" id="discard">
                     Discard
                 </button>
+
+
+                <div class="ui fluid selection dropdown">
+                    <input name="user" type="hidden">
+                    <i class="dropdown icon"></i>
+                    <div class="default text">Select Friend</div>
+                    <div class="menu">
+                        <div class="item" data-value="jenny" id="jenny">
+                            <img class="ui mini avatar image" src="/images/avatar/small/jenny.jpg">
+                            Jenny Hess
+                        </div>
+                        <div class="item" data-value="elliot">
+                            <img class="ui mini avatar image" src="/images/avatar/small/elliot.jpg">
+                            Elliot Fu
+                        </div>
+                        <div class="item" data-value="stevie">
+                            <img class="ui mini avatar image" src="/images/avatar/small/stevie.jpg">
+                            Stevie Feliciano
+                        </div>
+                        <div class="item" data-value="christian">
+                            <img class="ui mini avatar image" src="/images/avatar/small/christian.jpg">
+                            Christian
+                        </div>
+                        <div class="item" data-value="matt">
+                            <img class="ui mini avatar image" src="/images/avatar/small/matt.jpg">
+                            Matt
+                        </div>
+                        <div class="item" data-value="justen">
+                            <img class="ui mini avatar image" src="/images/avatar/small/justen.jpg">
+                            Justen Kitsune
+                        </div>
+                    </div>
+                </div>
+
+
             </div>
 
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras id nibh metus. Nam vel pulvinar tortor. Donec justo quam, iaculis et lacinia nec, tincidunt viverra massa. Phasellus vel leo eget est vestibulum mollis vel id nisi. Mauris turpis ante, malesuada non commodo quis, porta non dui. Fusce eget nisl sit amet massa varius fermentum. Nulla egestas ornare sapien, a pellentesque urna laoreet at. Suspendisse sollicitudin, sapien id cursus dictum, tortor nisl tempor enim, vel finibus ipsum sapien eu orci. Curabitur eu nulla non ex scelerisque cursus sit amet ac lectus. Aenean ultrices mattis quam, eget pulvinar nisi pellentesque nec. Nam ornare libero ac ante scelerisque iaculis. Pellentesque elementum imperdiet eros, placerat consequat dui imperdiet nec. </p>
@@ -153,6 +189,11 @@
             </div>
         </div>
 
+        <script type="text/javascript">
+            $('.ui.dropdown')
+                    .dropdown()
+                    ;
+        </script>
 
 
     </body>
